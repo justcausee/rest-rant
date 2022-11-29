@@ -24,8 +24,8 @@ function new_form () {
                   <input className="form-control" id="state" name="state" />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="cuisines">Cuisines</label>
-                  <input className="form-control" id="cuisines" name="cuisines" required />
+                  <label for="founded">Founded Year</label>
+                  <input className="form-control" id="founded" name="founded" />
                 </div>
                 <input className="btn btn-primary" type="submit" value="Add Place" />
               </form>
